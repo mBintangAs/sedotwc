@@ -32,4 +32,10 @@ $(".owl-carousel").owlCarousel({
 });
 
 
+function kirimWa() {
+    const nama = $('#nama').val();
+    const lokasi = $('#lokasi').val();
+    const keluhan = $('#keluhan').val();
+    window.open(`https://wa.me/62895339413256?text=Halo Permisi, saya ${nama}, dari ${lokasi} saya ada keluhan ${keluhan}`,"_blank")
+}
 /** google_map js **/
