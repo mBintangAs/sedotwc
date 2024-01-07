@@ -38,4 +38,19 @@ function kirimWa() {
     const keluhan = $('#keluhan').val();
     window.open(`https://wa.me/62895339413256?text=Halo Permisi, saya ${nama}, dari ${lokasi} saya ada keluhan ${keluhan}`,"_blank")
 }
+function toggleMenu() {
+    var fabMenu = document.getElementById('fabMenu');
+    fabMenu.classList.toggle('active');
+}
+
+function redirectToWhatsApp() {
+    // Ganti URL dengan URL WhatsApp yang diinginkan
+    window.location.href = 'https://wa.me/1234567890';
+}
+
+function makePhoneCall() {
+    // Ganti nomor telepon dengan nomor yang diinginkan
+    window.location.href = 'tel:+1234567890';
+}
+
 /** google_map js **/
