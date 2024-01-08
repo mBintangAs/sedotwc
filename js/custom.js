@@ -45,12 +45,12 @@ function toggleMenu() {
 
 function redirectToWhatsApp() {
     // Ganti URL dengan URL WhatsApp yang diinginkan
-    window.location.href = 'https://wa.me/1234567890';
+    window.location.href = 'https://wa.me/62895339413256';
 }
 
 function makePhoneCall() {
     // Ganti nomor telepon dengan nomor yang diinginkan
-    window.location.href = 'tel:+1234567890';
+    window.location.href = 'tel:+62895339413256';
 }
 
 /** google_map js **/
